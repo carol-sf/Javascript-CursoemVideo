@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        div#interaja {
+            font: bold 20pt Arial;
+            background: rgb(53, 184, 140);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            margin: 8% auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">
+            <img src="../img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="../img/icone-modo-claro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <div class="apresentacao">
+            <a href="entendendo-o-js.html" class="subtitulo">Voltar</a>
+            <h1 class="titulo">Aprendendo JavaScript</h1>
+            <p id="frase2">Eventos DOM</p>
+        </div>
+        <div id="interaja">
+            Interaja
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Projetos Carol</p>
+    </footer>
+
+    <script>
+        var interaja = window.document.getElementById('interaja');
+        interaja.addEventListener('click', clicar);
+        interaja.addEventListener('mouseenter', entrar);
+        interaja.addEventListener('mouseout', sair);
+
+        function clicar() {
+            interaja.innerHTML = 'Clicou!';
+            interaja.style.background = '#e74258';
+        }
+
+        function entrar() {
+            interaja.innerHTML = 'Entrou!';
+        }
+
+        function sair() {
+            interaja.innerHTML = 'Saiu!';
+            interaja.style.background = 'rgb(53, 184, 140)';
+        }
+    </script>
+</body>
+</html>
