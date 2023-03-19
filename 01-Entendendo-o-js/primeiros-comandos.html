@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            font: normal 14pt Arial;
+            margin: 0 5%;
+        }
+        
+        header {
+            margin: 0 -6%;
+        }
+
+        h2 {
+            color: rgb(233, 200, 10);
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">
+            <img src="../img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="../img/icone-modo-claro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <div class="apresentacao">
+            <p class="subtitulo">Primeiros Comandos</p>
+            <h1 class="titulo">Aprendendo JavaScript</h1>
+        </div>
+
+    </main>
+    <!-- <footer>
+        <p>&copy; Projetos Carol</p>
+    </footer> -->
+
+    <script>
+        var nome = window.prompt('Qual o seu nome?');
+        var n1 = window.prompt('Digite um número qualquer: ');
+        var n2 = window.prompt('Digite outro número: ');
+        var salario = window.prompt('Digite seu salário: ');
+        window.alert(`Obrigada ${nome}! Agora vou usar essas informações para montar a página...`);
+
+
+        document.write(`<h2>Conversão entre tipos</h2>`);
+        var soma = n1 + n2;
+        document.write(`<p>A soma dos dois números é: ${soma}</p>`);
+        document.write(`<p>Só que não né?! É porque o prompt sempre retorna uma string, calma aí, deixa eu converter...</p>`);
+        soma = Number.parseFloat(n1) + Number(n2);
+        document.write(`<p>Agora sim! A soma dos números digitados é: ${soma}</p>`);
+        document.write(`<p>Só para não esquecer, para transformar para string é assim: String(n) ou n.toString()</p>`);
+
+
+        document.write(`<h2>Formatando strings</h2>`);
+        document.write(`<p>Olá <strong>${nome}</strong>!</p>`);
+        document.write(`<p>Seu nome tem ${nome.length} letras<p>`);
+        document.write(`<p>Seu nome em maiúscula é ${nome.toUpperCase()}<p>`);
+        document.write(`<p>Seu nome em minúscula é ${nome.toLowerCase()}<p>`);
+
+
+        document.write(`<h2>Formatando números</h2>`);
+        document.write(`<p>Seu salário é ${salario}<p>`);
+        document.write(`<p>Obs: não deu certo imprimir formatado... tenho que ver porque depois, mas por enquanto aqui vão os comandos:<p>`);
+        document.write(`<p>- Padronizando as casas: .toFixed(2)<p>`);
+        document.write(`<p>- Substituindo simbolos: .replace('.',',')<p>`);
+        document.write(`<p>- Formato de moeda: .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})<p>`);
+        document.write(`<p>Obs: esse ultimo pode ser de vários países: BRL, USD, EUR<p>`);
+
+
+        document.write(`<h2>Operadores</h2>`);
+        var num1 = Number(n1);
+        var num2 = Number(n2);
+        var result = 0;
+        document.write(`<h3>Aritméticos</h3>`);
+        result = num1 + num2;
+        document.write(`<p>${num1} + ${num2} = ${result}</p>`);
+        result = num1 - num2;
+        document.write(`<p>${num1} - ${num2} = ${result}</p>`);
+        result = num1 * num2;
+        document.write(`<p>${num1} * ${num2} = ${result}</p>`);
+        result = num1 / num2;
+        document.write(`<p>${num1} / ${num2} = ${result}</p>`);
+        result = num1 % num2;
+        document.write(`<p>${num1} % ${num2} = ${result}</p>`);
+        result = num1 ** num2;
+        document.write(`<p>${num1} ** ${num2} = ${result}</p>`);
+    </script>
+</body>
+</html>

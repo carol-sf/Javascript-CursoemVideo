@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janelas</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <style>
+        /* CSS */
+    </style>
+</head>
+<body>
+    <!-- HTML -->
+
+    <header>
+        <a href="">
+            <img src="../img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="../img/icone-modo-claro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <!-- <footer>
+        <p>&copy; Projetos Carol</p>
+    </footer> -->
+
+    <script>
+        //JavaScript
+
+        window.confirm('O conteúdo dessa página só vai ser revelado depois das mensagens. Tem certeza de que quer continuar?'); //desse jeito não importa se eu aperto OK ou CANCELAR
+
+        var nome = window.prompt('Ok então! Qual o seu nome?');
+        window.alert(`Seja muito bem vindo(a) ${nome}!!`); //tô usando o Templete String
+
+        //Conversão entre tipos
+        var n1 = window.prompt('Digite um número: ');
+        var n2 = window.prompt('Digite outro número: ');
+        var soma = n1 + n2;
+        window.alert(`A soma dos dois números é: ${soma} ------> Só que não né?! É pq o prompt sempre retorna uma string, calma aí, deixa eu converter...`);
+        soma = Number.parseFloat(n1) + Number(n2);
+        window.alert(`Agora sim! A soma dos números digitados é: ${soma}`);
+
+        document.write(`<h2>Oi ${nome}!</h2>`);
+        document.write(`<p>Estou escrevendo no documento pelo JavaScript...</p>`);
+    </script>
+</body>
+</html>
