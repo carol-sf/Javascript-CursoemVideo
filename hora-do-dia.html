@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hora-do-dia.css">
+</head>
+<body onload="carregar()">
+    <header id="menu">
+        <a href="">
+            <img src="./img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="./img/icone-modo-claro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-principal">Hora do Dia</h1>
+        <section class="principal">
+            <div id="msg" class="div-dinamica"></div>
+            <div class="div-dinamica">
+                <img id="imagem" src="" alt="">
+            </div>
+            <button id="btnAlterarTema" class="btn-menor" onclick="alterarTema()">Alterar tema</button>
+            <span id="tema"></span>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>&copy; Projetos Carol</p>
+    </footer>
+    <script src="./js/hora-do-dia.js"></script>
+</body>
+</html>
