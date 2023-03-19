@@ -1,11 +1,17 @@
 .apresentacao {
     text-align: center;
+    margin: 12% 0;
+}
+
+.apresentacao-titulo {
+    margin: 2% 0;
 }
 
 .titulo {
     font-size: 40pt;
     margin: 0;
-    width: 60%;
+    /* width: 60%; */
+    width: 70%;
     margin: auto;
     color: var(--escuro);
 }
@@ -14,7 +20,7 @@
     color: var(--colorido-claro);
     font-weight: bold;
     font-size: 14pt;
-}
+} 
 
 .btn {
     background-color: var(--colorido-claro);
@@ -31,12 +37,4 @@
 .botoes {
     display: flex;
     justify-content: center;
-}
-
-
-
-
-
-.apresentacao-entendendo-o-js {
-    margin: 12% 0;
 }
