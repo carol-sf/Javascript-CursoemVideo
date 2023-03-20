@@ -17,6 +17,12 @@
     background-size: 150%;
 }
 
+#fundo-contador {
+    background-image: url(../img/fundo-contador.jpg);
+    background-size: 100%;
+    font: normal 15pt Arial;
+}
+
 
 
 /* Hora do dia */
@@ -54,4 +60,23 @@
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
+}
+
+
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.form-esquerda {
+    grid-column: 1 / 2;
+}
+
+.form-direita {
+    grid-column: 2 / 3;
+}
+
+.inp-margin-esq {
+    margin-left: 5%;
 }

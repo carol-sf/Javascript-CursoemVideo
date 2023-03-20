@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/especificos.css">
+</head>
+<body id="fundo-contador">
+    <header>
+        <a href="index.html">
+            <img src="./img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="./img/icone-modo-escuro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-principal">Vamos contar</h1>
+        <section class="principal">
+            <div class="form">
+                <div class="form-esquerda">
+                    <label class="lbl">Início:</label>
+                    <input type="number" class="inp inp-grande" id="inpInicio">
+                    <br>
+                    <label class="lbl">Fim:</label>
+                    <input type="number" class="inp inp-grande inp-margin-esq" id="inpFim">
+                </div>
+                <div class="form-direita">
+                    <label class="lbl">Passo:</label>
+                    <input type="number" class="inp inp-grande" id="inpPasso">
+                    <div class="botoes">
+                        <button class="btn btn-menor" onclick="contar()">Contar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="divResp"></div>
+        </section>
+    </main>
+    <footer class="rodape-sem-fundo">
+        <p>&copy; Projetos Carol</p>
+    </footer>
+    <script src=""></script> <!-- nao esquecer!! -->
+</body>
+</html>
