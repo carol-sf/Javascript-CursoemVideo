@@ -51,9 +51,6 @@ function temaMadrugada() {
     destaque.style.color = 'var(--madrugada-destaque)';
     btnAlterarTema.style.background = 'var(--madrugada-destaque)';
     document.body.style.background = 'var(--madrugada-fundo)';
-    // menu.style.background = '#000';
-    // menu.style.background = 'var(--noite-destaque)';
-    rodape.style.background = 'var(--madrugada-fundo)';
 }
 
 function temaManha() {
@@ -61,8 +58,6 @@ function temaManha() {
     destaque.style.color = 'var(--manha-destaque)';
     btnAlterarTema.style.background = 'var(--manha-destaque)';
     document.body.style.background = 'var(--manha-fundo)';
-    // menu.style.background = '#000';
-    rodape.style.background = 'var(--manha-fundo)';
 }
 
 function temaTarde() {
@@ -70,8 +65,6 @@ function temaTarde() {
     destaque.style.color = 'var(--tarde-fundo)';
     btnAlterarTema.style.background = 'var(--madrugada-fundo)';
     document.body.style.background = 'var(--tarde-fundo)';
-    // menu.style.background = '#000';
-    rodape.style.background = 'var(--tarde-fundo)';
 }
 
 function temaNoite() {
@@ -79,6 +72,4 @@ function temaNoite() {
     destaque.style.color = 'var(--tarde-fundo)';
     btnAlterarTema.style.background = 'var(--tarde-fundo)';
     document.body.style.background = 'var(--noite-fundo)';
-    // menu.style.background = '#000';
-    rodape.style.background = 'var(--noite-fundo)';
 }

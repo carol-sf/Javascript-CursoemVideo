@@ -1,7 +1,3 @@
-/* body {
-    background-color: rgb(92, 133, 194);
-} */
-
 :root {
     --madrugada-destaque: #5355d0;
     --madrugada-fundo: #43434B;
@@ -13,35 +9,12 @@
     --noite-fundo: #1D2E36;
 }
 
-.principal {
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.445);
-}
 
-.titulo-principal {    
-    color: white;
-    text-align: center;
-    text-shadow:3px 3px 10px rgba(0, 0, 0, 0.445);
-}
 
-.div-dinamica {
-    text-align: center;
-    padding: 10px;
-}
-
-.btn-menor {
-    font: normal 12pt Arial;
-    padding: 5px 10px;
-    border-radius: 8px;
-    border-style: none;
-    color: white;
-    
-    background-color: #3d6fdb;
-    margin-left: 40%;
+#fundo-verificador-idade {
+    background-image: url(../img/fundo-verificador-de-idade.jpg);
+    background-position: center center;
+    background-size: 150%;
 }
 
 
@@ -58,11 +31,10 @@
     text-align: center;
 }
 
-
 /* Verificador de idade */
 .formulario {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     align-items: center;
     margin: 0 5% 3% 5%;
     /* justify-content: center; */
@@ -78,6 +50,8 @@
 .formulario-botao {
     grid-column: 2 / 3;
     /* background-color: aqua; */
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
 }

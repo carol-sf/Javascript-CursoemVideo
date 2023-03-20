@@ -7,11 +7,11 @@
     <title>Hora do Dia</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/hora-do-dia.css">
+    <link rel="stylesheet" href="./css/especificos.css">
 </head>
 <body onload="carregar()">
-    <header id="menu">
-        <a href="">
+    <header>
+        <a href="index.html">
             <img src="./img/logo-livro.png" alt="logo-livro">
             Projetos Carol
         </a>
@@ -28,11 +28,13 @@
             <div class="div-dinamica">
                 <img id="imagem" src="" alt="">
             </div>
-            <button id="btnAlterarTema" class="btn-menor" onclick="alterarTema()">Alterar tema</button>
-            <span id="tema"></span>
+            <div class="formulario-botao">
+                <button id="btnAlterarTema" class="btn btn-menor" onclick="alterarTema()">Alterar tema</button>
+                <span id="tema"></span>
+            </div>
         </section>
     </main>
-    <footer id="rodape">
+    <footer class="rodape-sem-fundo">
         <p>&copy; Projetos Carol</p>
     </footer>
     <script src="./js/01-hora-do-dia.js"></script>

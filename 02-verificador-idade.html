@@ -8,13 +8,12 @@
     <title>Verificador de Idade</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/fundos.css">
-    <link rel="stylesheet" href="./css/hora-do-dia.css"> <!-- trocar isso -->
+    <link rel="stylesheet" href="./css/especificos.css">
 </head>
 
 <body id="fundo-verificador-idade">
     <header>
-        <a href="">
+        <a href="index.html">
             <img src="./img/logo-livro.png" alt="logo-livro">
             Projetos Carol
         </a>
@@ -42,15 +41,15 @@
                     </p>
                 </div>
                 <div class="formulario-botao">
-                    <p>
-                        <input type="button" value="verificar" class="btn" onclick="verificar()">
-                    </p>
+                    <!-- <p> -->
+                        <input type="button" value="verificar" class="btn btn-medio" onclick="verificar()">
+                    <!-- </p> -->
                 </div>
             </div>
             <div id="divResp"></div>
         </section>
     </main>
-    <footer>
+    <footer class="rodape-sem-fundo">
         <p>&copy; Projetos Carol</p>
     </footer>
     <script src="./js/02-verificador-idade.js"></script>
