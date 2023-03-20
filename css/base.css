@@ -1,7 +1,8 @@
 :root {
-    --escuro: #142136;
+    /*--escuro: #1c293d; /* mais claro */
+    --escuro-menu: #101825; /* mais escuro */
+    --escuro: #142136; /* médio */
     --colorido-escuro: #08c9c8;
-    /* --escuro: #101825; */
     --claro: #f5f5f5;
     --colorido-claro: #ffd700;
 }
@@ -13,7 +14,8 @@ body {
 }
 
 header {
-    background-color: var(--escuro);
+    background-color: var(--escuro-menu);
+    /* background-color: #000; */
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -61,7 +63,7 @@ main {
 }
 
 footer {
-    background-color: var(--escuro);
+    background-color: var(--escuro-menu);
     height: 60px;
     display: flex;
     justify-content: center;
