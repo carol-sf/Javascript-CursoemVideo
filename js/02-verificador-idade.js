@@ -7,8 +7,13 @@ function verificar() {
     var anoAtual = dataAtual.getFullYear();
     if(inpAno.value == 0) {
         alert('Por favor, insira o ano de nascimento.');
-    } if(inpAno.value > anoAtual) {
+        return;
+    } else if(inpAno.value > anoAtual) {
         alert('Essa pessoa veio do futuro?? Por favor, verifique o ano de nascimento.')
+        return;
+    } else if(inpAno.value < 0) {
+        alert('O ano de nascimento não pode ser negativo. Por favor, tente novamente.')
+        return;
     } else {
         var idade = anoAtual - Number(inpAno.value);
         var genero = '';
