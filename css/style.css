@@ -83,7 +83,7 @@
 }
 
 .inp {
-    height: 25px;
+    height: 26px;
     font: normal 12pt Arial;
     padding-left: 8px;
     border-radius: 8px;
@@ -92,6 +92,10 @@
 
 .inp-pequeno {
     width: 25%;    
+}
+
+.inp-medio {
+    width: 35%;
 }
 
 .inp-grande {
@@ -119,4 +123,12 @@
 
 .img {
     width: 300px;
+}
+
+.cmb {
+    font: normal 12pt Arial;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin: 2% 1%;
+    width: 26%;
 }

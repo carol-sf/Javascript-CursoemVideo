@@ -23,6 +23,11 @@
     font: normal 15pt Arial;
 }
 
+#fundo-tabuada {
+    background-image: url(../img/fundo-tabuada.jpg);
+    background-size: 150%;
+}
+
 
 
 /* Hora do dia */
@@ -48,4 +53,15 @@
 
 .inp-margin-esq {
     margin-left: 5%;
+}
+
+/* Tabuada */
+#selTabuada {
+    padding: 3% 5%;
+    font: normal 15pt Arial;
+    border-radius: 10px;
+}
+
+#selTabuada option {
+    padding: 5px;
 }

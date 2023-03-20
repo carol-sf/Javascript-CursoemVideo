@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/especificos.css">
+</head>
+
+<body id="fundo-tabuada">
+    <header>
+        <a href="index.html">
+            <img src="./img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="./img/icone-modo-escuro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-principal">Tabuada</h1>
+        <section class="principal">
+            <div>
+                <input type="number" placeholder="Informe um número" class="inp inp-medio" id="inpNum">
+                <select name="cmbTipoTabuada" id="cmbTipoTabuada" class="cmb">
+                    <option value="soma">Soma</option>
+                    <option value="subtracao">Subtração</option>
+                    <option value="multiplicacao" selected>Multiplicação</option>
+                    <option value="divisao">Divisão</option>
+                </select>
+                <button id="btnTabuada" class="btn btn-menor" onclick="gerarTabuada()">Gerar Tabuada</button>
+            </div>
+            <div class="div-dinamica">
+                <select name="tabuada" id="selTabuada" size="7">
+                    <option value="titulo" class="opTitulo" id="opTitulo">Sua tabuada</option>
+                </select>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="rodape-sem-fundo">
+        <p>&copy; Projetos Carol</p>
+    </footer>
+    <script src=""></script> <!-- nao esquecer!! -->
+</body>
+
+</html>
