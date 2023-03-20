@@ -53,3 +53,9 @@ Foto de Chris J Mitchell: https://www.pexels.com/pt-br/foto/fotografia-com-foco-
 
 fundo-verificador-de-imagem:
 Foto de Pixabay no Pexels: https://www.pexels.com/pt-br/foto/efeito-bokeh-301673/
+
+
+---- Projeto Contador ----------------------------------------------------------------------------------------------------
+
+fundo-contador:
+Foto de Andrea Piacquadio: https://www.pexels.com/pt-br/foto/mulher-de-manga-comprida-vermelha-escrevendo-no-quadro-de-giz-3769714/
