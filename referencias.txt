@@ -22,5 +22,34 @@ hora-madrugada:
 Foto de Marco Milanesi: https://www.pexels.com/pt-br/foto/foto-da-montanha-sob-o-ceu-noturno-estrelado-2670898/
 
 
----- Projeto Hora do Dia -------------------------------------------------------------------------------------------------
+---- Projeto Verificador de idade ----------------------------------------------------------------------------------------
 
+mulher-crianca:
+Foto de Pixabay: https://www.pexels.com/pt-br/foto/menina-de-vestido-azul-em-pe-no-campo-de-grama-durante-o-por-do-sol-36029/
+
+mulher-jovem:
+Foto de Pixabay: https://www.pexels.com/pt-br/foto/mulher-ouve-fones-de-ouvido-em-open-grassfield-235534/
+
+mulher-adulto:
+Foto de Kadeem Stewart: https://www.pexels.com/pt-br/foto/afro-lindo-bonito-atraente-15787350/
+
+mulher-idoso:
+Foto de Andrea Piacquadio: https://www.pexels.com/pt-br/foto/fotografia-com-profundidade-de-campo-de-mulher-em-cor-pastel-camisa-sem-mangas-e-chapeu-de-sol-branco-788567/
+
+homem-crianca:
+Foto de Luna Lovegood: https://www.pexels.com/pt-br/foto/menino-vestindo-um-sueter-com-listras-vermelhas-marrons-e-brancas-correndo-foto-1104007/
+
+homem-jovem:
+Foto de Jc Laurio: https://www.pexels.com/pt-br/foto/retrato-de-um-menino-usando-colar-de-prata-1249318/
+
+homem-adulto:
+Foto de Ba Tik: https://www.pexels.com/pt-br/foto/homem-de-camiseta-cinza-sentado-na-cama-3754285/
+
+homem-idoso:
+Foto de juan mendez: https://www.pexels.com/pt-br/foto/foto-de-retrato-de-um-homem-idoso-com-camisa-de-colarinho-azul-e-chapeu-preto-3075517/
+
+caveira:
+Foto de Chris J Mitchell: https://www.pexels.com/pt-br/foto/fotografia-com-foco-seletivo-do-esqueleto-1528375/
+
+fundo-verificador-de-imagem:
+Foto de Pixabay no Pexels: https://www.pexels.com/pt-br/foto/efeito-bokeh-301673/
