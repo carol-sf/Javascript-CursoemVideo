@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fundos.css">
+    <link rel="stylesheet" href="./css/hora-do-dia.css"> <!-- trocar isso -->
+</head>
+
+<body id="fundo-verificador-idade">
+    <header>
+        <a href="">
+            <img src="./img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="./img/icone-modo-escuro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-principal">Verificador de Idade</h1>
+        <section class="principal">
+            <div class="formulario">
+                <div class="formulario-dados">
+                    <p>
+                        Ano de nascimento:
+                        <input type="number" id="inpAno" class="inpText" min="0">
+                    </p>
+                    <p>
+                        Sexo:
+                        <input type="radio" name="radSex" id="radMasc" checked>
+                        <label for="radMasc">Masculino</label>
+                        <input type="radio" name="radSex" id="radFem">
+                        <label for="radFem">Feminino</label>
+                    </p>
+                </div>
+                <div class="formulario-botao">
+                    <p>
+                        <input type="button" value="verificar" class="btn" onclick="verificar()">
+                    </p>
+                </div>
+            </div>
+            <div id="divResp"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Projetos Carol</p>
+    </footer>
+    <script src="./js/02-verificador-idade.js"></script>
+</body>
+
+</html>

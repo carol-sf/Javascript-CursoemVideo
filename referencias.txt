@@ -1,0 +1,26 @@
+---- Geral -------------------------------------------------------------------------------------------------
+
+logo-livro:
+<a href="https://www.flaticon.com/free-icons/study" title="study icons">Study icons created by VectorPortal - Flaticon</a>
+
+icone-modo-escuro:
+<a href="https://www.flaticon.com/br/icones-gratis/modo-escuro" title="modo escuro ícones">Modo escuro ícones criados por Freepik - Flaticon</a>
+
+
+---- Projeto Hora do Dia -------------------------------------------------------------------------------------------------
+
+hora-manha:
+Foto de Jackson  Jorvan: https://www.pexels.com/pt-br/foto/canteiro-de-flores-de-petalas-brancas-605494/
+
+hora-tarde:
+Foto de Eric Goverde: https://www.pexels.com/pt-br/foto/fotografia-aerea-de-edificios-da-cidade-durante-a-hora-dourada-3150702/
+
+hora-noite:
+Foto de Vraj Shah: https://www.pexels.com/pt-br/foto/flor-desabrochar-durante-o-nascer-do-sol-633814/
+
+hora-madrugada:
+Foto de Marco Milanesi: https://www.pexels.com/pt-br/foto/foto-da-montanha-sob-o-ceu-noturno-estrelado-2670898/
+
+
+---- Projeto Hora do Dia -------------------------------------------------------------------------------------------------
+

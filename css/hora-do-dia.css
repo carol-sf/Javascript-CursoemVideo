@@ -46,6 +46,7 @@
 
 
 
+/* Hora do dia */
 #imagem {
     width: 300px;
 }
@@ -55,4 +56,28 @@
     color: #43434B;
     display: block;
     text-align: center;
+}
+
+
+/* Verificador de idade */
+.formulario {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    margin: 0 5% 3% 5%;
+    /* justify-content: center; */
+}
+
+.formulario-dados {
+    grid-column: 1 / 2;
+    /* background-color: #d67a67; */
+    /* margin-left: 5%; */
+    /* background-color: #3d6fdb; */
+}
+
+.formulario-botao {
+    grid-column: 2 / 3;
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: center; */
 }
