@@ -13,7 +13,7 @@ function verificar() {
         var idade = anoAtual - Number(inpAno.value);
         var genero = '';
         var imagem = document.createElement('img');
-        imagem.setAttribute('id', 'imagem');
+        imagem.setAttribute('class', 'img');
 
         if(radSex[0].checked) {
             genero = 'um homem';

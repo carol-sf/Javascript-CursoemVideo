@@ -48,6 +48,12 @@
     justify-content: center;
 }
 
+.botoes-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .btn {
     background-color: var(--colorido-claro);
     color: var(--claro);
@@ -95,5 +101,22 @@
 
 .div-dinamica {
     text-align: center;
-    padding: 10px;
+    padding: 1% 5%;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.form-esquerda {
+    grid-column: 1 / 2;
+}
+
+.form-direita {
+    grid-column: 2 / 3;
+}
+
+.img {
+    width: 300px;
 }

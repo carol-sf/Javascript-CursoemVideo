@@ -26,10 +26,6 @@
 
 
 /* Hora do dia */
-#imagem {
-    width: 300px;
-}
-
 #tema {
     font: normal 11pt Arial;
     color: #43434B;
@@ -43,39 +39,12 @@
     grid-template-columns: 70% 30%;
     align-items: center;
     margin: 0 5% 3% 5%;
-    /* justify-content: center; */
 }
 
-.formulario-dados {
-    grid-column: 1 / 2;
-    /* background-color: #d67a67; */
-    /* margin-left: 5%; */
-    /* background-color: #3d6fdb; */
-}
-
-.formulario-botao {
-    grid-column: 2 / 3;
-    /* background-color: aqua; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-
-
-.form {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-}
-
-.form-esquerda {
-    grid-column: 1 / 2;
-}
-
-.form-direita {
-    grid-column: 2 / 3;
-}
+/* Contador */
+ .emoji {
+    color: var(--colorido-claro);
+ }
 
 .inp-margin-esq {
     margin-left: 5%;
