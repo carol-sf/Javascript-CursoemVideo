@@ -59,3 +59,9 @@ Foto de Pixabay no Pexels: https://www.pexels.com/pt-br/foto/efeito-bokeh-301673
 
 fundo-contador:
 Foto de Andrea Piacquadio: https://www.pexels.com/pt-br/foto/mulher-de-manga-comprida-vermelha-escrevendo-no-quadro-de-giz-3769714/
+
+
+---- Projeto Tabuada -----------------------------------------------------------------------------------------------------
+
+fundo-tabuada:
+Foto de Suzy Hazelwood: https://www.pexels.com/pt-br/foto/arte-da-galaxia-azul-e-vermelha-1629236/

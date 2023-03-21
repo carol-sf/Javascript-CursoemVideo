@@ -13,3 +13,15 @@ Nesse projeto eu resolvi todos os exercícios do curso básico de Javascript da 
 --> Condições e criação de elementos HTML pelo JS
 <br><br>
 <img src="./img/projeto-verificador-de-idade.png" alt="projeto-verificador-de-idade">
+
+
+## Contador
+--> Estruturas de repetição
+<br><br>
+<img src="./img/projeto-contador.png" alt="projeto-verificador-de-idade">
+
+
+## Tabuada
+--> Condições, estruturas de repetição e criação de elementos pelo JS
+<br><br>
+<img src="./img/projeto-tabuada.png" alt="projeto-verificador-de-idade">
