@@ -103,11 +103,6 @@
     margin: 2% 0;
 }
 
-.div-dinamica {
-    text-align: center;
-    padding: 1% 5%;
-}
-
 .form {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -134,13 +129,26 @@
 }
 
 .lbl {
-    
     font: normal 15pt Arial;
 }
 
-.sel {
-    
+.sel {    
     padding: 1% 5%;
     font: normal 15pt Arial;
     border-radius: 10px;
 }
+
+.div-dinamica {
+    text-align: center;
+    padding: 1% 5%;
+}
+
+.div-dinamica-a-esquerda {
+    font: normal 15pt Arial;
+    margin: 0 5%;
+}
+
+.div-dinamica-a-esquerda p {
+    margin: 1%;
+}
+

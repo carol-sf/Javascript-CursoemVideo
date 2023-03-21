@@ -65,3 +65,9 @@ Foto de Andrea Piacquadio: https://www.pexels.com/pt-br/foto/mulher-de-manga-com
 
 fundo-tabuada:
 Foto de Suzy Hazelwood: https://www.pexels.com/pt-br/foto/arte-da-galaxia-azul-e-vermelha-1629236/
+
+
+---- Projeto Analizador de Números ---------------------------------------------------------------------------------------
+
+fundo-alalizador-numeros:
+Foto de Burak The Weekender: https://www.pexels.com/pt-br/foto/exibicao-de-graficos-em-um-ipad-187041/
