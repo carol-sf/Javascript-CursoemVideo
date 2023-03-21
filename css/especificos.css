@@ -28,6 +28,12 @@
     background-size: 150%;
 }
 
+#fundo-analizador-numeros {
+    background-image: url(../img/fundo-analizador-numeros.jpg);
+    background-size: 150%;
+    background-position: right top;
+}
+
 
 
 /* Hora do dia */
@@ -56,12 +62,11 @@
 }
 
 /* Tabuada */
-#selTabuada {
-    padding: 3% 5%;
-    font: normal 15pt Arial;
-    border-radius: 10px;
-}
-
 #selTabuada option {
     padding: 5px;
+}
+
+/* Analizador de numeros */
+.tituloAnalize {
+    color: #FFCC00;
 }
