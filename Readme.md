@@ -16,12 +16,18 @@ Nesse projeto eu resolvi todos os exercícios do curso básico de Javascript da 
 
 
 ## Contador
---> Estruturas de repetição
+--> Estruturas de repetição + condições, funções e manipulação de elementos HTML pelo JS
 <br><br>
-<img src="./img/projeto-contador.png" alt="projeto-verificador-de-idade">
+<img src="./img/projeto-contador.png" alt="projeto-vcontador">
 
 
 ## Tabuada
---> Condições, estruturas de repetição e criação de elementos pelo JS
+--> Estruturas de repetição + condições e criação de elementos HTML pelo JS
 <br><br>
-<img src="./img/projeto-tabuada.png" alt="projeto-verificador-de-idade">
+<img src="./img/projeto-tabuada.png" alt="projeto-tabuada">
+
+
+## Analizador de números
+--> Funções + condições, estruturas de repetição, criação e manipulação de elementos HTML pelo JS
+<br><br>
+<img src="./img/projeto-analizador-numeros.png" alt="projeto-analizador-numeros">
