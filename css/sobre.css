@@ -8,8 +8,7 @@
 }
 
 .div-proposta {
-    margin-top: 6%;
-
+    margin-top: 3%;
 }
 
 .div-proposta-block {
@@ -18,9 +17,17 @@
 }
 
 .btn-proposta-block {
-    margin: 3% 8%;
+    margin: 3% 16%;
 }
 
 .projeto img {
-    height: 65%;
+    height: 450px;
+}
+
+.divSaibaMais a {
+    color: var(--escuro);
+}
+
+.coluna {
+    width: 50%;
 }
