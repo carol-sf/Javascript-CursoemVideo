@@ -34,53 +34,67 @@
             <br><br>
         </section>
         <section class="projetos">
-            <div class="projeto" id="projeto01">
-                <a href="01-hora-do-dia.html">
-                    <h3 class="titulo-projeto">Hora do dia</h3>
-                    <img src="./img/projeto-hora-do-dia.png" alt="projeto-hora-do-dia">
-                </a>
-                <button class="btn btn-projeto">Saiba mais</button>
-            </div>
-            <div class="projeto" id="projeto02">
-                <a href="02-verificador-idade.html">
-                    <h3 class="titulo-projeto">Verificador de idade</h3>
-                    <img src="./img/projeto-verificador-de-idade.png" alt="projeto-verificador-de-idade">
-                </a>
-                <button class="btn btn-projeto">Saiba mais</button>
-            </div>
-            <div class="projeto" id="projeto03">
-                <a href="03-contador.html">
-                    <h3 class="titulo-projeto">Contador</h3>
-                    <img src="./img/projeto-contador.png" alt="projeto-contador">
-                </a>
-                <button class="btn btn-projeto">Saiba mais</button>
-            </div>
-            <div class="projeto" id="projeto04">
-                <a href="04-tabuada.html">
-                    <h3 class="titulo-projeto">Tabuada</h3>
-                    <img src="./img/projeto-tabuada.png" alt="projeto-tabuada">
-                </a>
-                <button class="btn btn-projeto">Saiba mais</button>
-            </div>
-            <div class="projeto" id="projeto05">
-                <a href="05-analizador-numeros.html">
-                    <h3 class="titulo-projeto">Analizador de números</h3>
-                    <img src="./img/projeto-analizador-numeros.png" alt="projeto-analizador-numeros">
-                </a>
-                <button class="btn btn-projeto">Saiba mais</button>
-            </div>
-            <div class="projeto" id="projeto06">
-                <a href="">
-                    <h3 class="titulo-projeto">Meus Testes</h3>
-                    <img src="./img/projeto-analizador-numeros.png" alt="projeto-analizador-numeros">
-                </a>
-                <button class="btn btn-projeto">Saiba mais</button>
+            <div class="linha">
+                <div class="coluna">
+                    <div class="projeto" id="projeto01">
+                        <a href="01-hora-do-dia.html">
+                            <h3 class="titulo-projeto">Hora do dia</h3>
+                            <img src="./img/projeto-hora-do-dia.png" alt="projeto-hora-do-dia">
+                        </a>
+                        <button id="btnProjeto1" class="btn btn-projeto" onclick="exibirInformacoes(1)">Saiba mais</button>
+                        <div id="divSaibaMais1" class="divSaibaMais"></div>
+                    </div>
+                    <div class="projeto" id="projeto03">
+                        <a href="03-contador.html">
+                            <h3 class="titulo-projeto">Contador</h3>
+                            <img src="./img/projeto-contador.png" alt="projeto-contador">
+                        </a>
+                        <button id="btnProjeto3" class="btn btn-projeto" onclick="exibirInformacoes(3)">Saiba mais</button>
+                        <div id="divSaibaMais3" class="divSaibaMais"></div>
+                    </div>
+                    <div class="projeto" id="projeto05">
+                        <a href="05-analizador-numeros.html">
+                            <h3 class="titulo-projeto">Analizador de números</h3>
+                            <img src="./img/projeto-analizador-numeros.png" alt="projeto-analizador-numeros">
+                        </a>
+                        <button id="btnProjeto5" class="btn btn-projeto" onclick="exibirInformacoes(5)">Saiba mais</button>
+                        <div id="divSaibaMais5" class="divSaibaMais"></div>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="projeto" id="projeto02">
+                        <a href="02-verificador-idade.html">
+                            <h3 class="titulo-projeto">Verificador de idade</h3>
+                            <img src="./img/projeto-verificador-de-idade.png" alt="projeto-verificador-de-idade">
+                        </a>
+                        <button id="btnProjeto2" class="btn btn-projeto" onclick="exibirInformacoes(2)">Saiba mais</button>
+                        <div id="divSaibaMais2" class="divSaibaMais"></div>
+                    </div>
+                    <div class="projeto" id="projeto04">
+                        <a href="04-tabuada.html">
+                            <h3 class="titulo-projeto">Tabuada</h3>
+                            <img src="./img/projeto-tabuada.png" alt="projeto-tabuada">
+                        </a>
+                        <button id="btnProjeto4" class="btn btn-projeto" onclick="exibirInformacoes(4)">Saiba mais</button>
+                        <div id="divSaibaMais4" class="divSaibaMais"></div>
+                    </div>
+                    <div class="projeto" id="projeto06">
+                        <a href="">
+                            <h3 class="titulo-projeto">Meus Testes</h3>
+                            <img src="./img/projeto-analizador-numeros.png" alt="projeto-analizador-numeros">
+                        </a>
+                        <button id="btnProjeto6" class="btn btn-projeto" onclick="exibirInformacoes(6)">Saiba mais</button>
+                        <div id="divSaibaMais6" class="divSaibaMais"></div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <p>&copy; Projetos Carol</p>
     </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
