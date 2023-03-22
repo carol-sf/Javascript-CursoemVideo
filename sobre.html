@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./img/logo-livro.png" alt="logo-livro">
+            Projetos Carol
+        </a>
+        <nav>
+            <button class="btn-sem-fundo"><img src="./img/icone-modo-escuro.png" alt=""></button>
+            <a href="index.html">Projetos</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <div class="apresentacao-titulo">
+            <a href="https://www.cursoemvideo.com/curso/javascript/" class="subtitulo">Javascript - curso em Vídeo</a>
+            <h1 class="titulo">Guia do Curso</h1>
+        </div>
+        <div class="info">
+            <p>Se você já conhece o Javascript e tem dúvida se esse curso é muito básico para você, eu tenho uma
+                proposta. Tente resolver os exercícios propostos pelo professor Guanabara.</p>
+            <p>&#x1F973 Se você <strong>conseguiu</strong> fazer todos eles sem ver a resolução, parabéns! Você já sabe
+                o que o curso se propôs a ensinar. Mesmo que você tenha conseguido implementar, eu recomento dar uma
+                olhada nas resoluções para ver se o seu código pode ser simplificado de alguma maneira.</p>
+            <p>&#x1F914 Se você <strong>não conseguiu</strong> implementar algumas funcionalidades, tente ver o vídeo
+                com o conceito principal trabalhado. Você também pode proucurar suas dúvidas na lista de perguntas mais
+                em baixo, se ela estiver lá é só clicar no link do vídeo referente.</p>
+        </div>
+        <div class="linha">
+            <div class="projeto">
+                <a href="https://youtu.be/b2K7eo5Jdj8?t=218">
+                    <h3 class="titulo-projeto">Modelo</h3>
+                    <img src="./img/propostas-modelo.png" alt="projeto-hora-do-dia">
+                </a>
+                <p class="info-modelo">Nesse vídeo, o professor monta um modelo de site para servir de base para
+                    todos os exercícios, você pode fazer como ele ou tentar fazer no seu próprio estilo.</p>
+            </div>
+            <div class="projeto">
+                <a href="https://youtu.be/b2K7eo5Jdj8?t=28">
+                    <h3 class="titulo-projeto">Proposta 1 - Hora do dia</h3>
+                    <img src="./img/proposta1.png" alt="proposta1">
+                </a>
+                <div class="div-proposta">
+                    <a href="https://youtu.be/UXSWgnbSHxs" class="btn btn-projeto">Ver resolução</a>
+                    <button id="btnProjeto1" class="btn btn-projeto" onclick="exibirInformacoes(1)">Conceitos principais</button>
+                </div>
+                <div id="divConceitosPrincipais1" class="divConceitosPrincipais"></div>
+            </div>
+        </div>
+        <div class="linha">
+            <div class="projeto">
+                <a href="https://youtu.be/b2K7eo5Jdj8?t=77">
+                    <h3 class="titulo-projeto">Proposta 2 - Verificador de Idade</h3>
+                    <img src="./img/proposta2.png" alt="projeto-hora-do-dia">
+                </a>
+                <div class="div-proposta">
+                    <a href="https://youtu.be/f5es-PpaUI8" class="btn btn-projeto">Ver resolução</a>
+                    <button id="btnProjeto1" class="btn btn-projeto" onclick="exibirInformacoes(1)">Conceitos principais</button>
+                </div>
+                <div id="divConceitosPrincipais2" class="divConceitosPrincipais"></div>
+            </div>
+            <div class="projeto">
+                <a href="https://youtu.be/6tyHypeY4-8?t=293">
+                    <h3 class="titulo-projeto">Proposta 3 - Contador</h3>
+                    <img src="./img/proposta3.png" alt="projeto-hora-do-dia">
+                </a>
+                <div class="div-proposta">
+                    <a href="https://youtu.be/6tyHypeY4-8" class="btn btn-projeto">Ver resolução</a>
+                    <button id="btnProjeto1" class="btn btn-projeto" onclick="exibirInformacoes(1)">Conceitos principais</button>
+                </div>
+                <div id="divConceitosPrincipais3" class="divConceitosPrincipais"></div>
+            </div>
+        </div>
+        <div class="linha">
+            <div class="projeto">
+                <a href="https://youtu.be/6tyHypeY4-8?t=390">
+                    <h3 class="titulo-projeto">Proposta 4 - Tabuada</h3>
+                    <img src="./img/proposta4.png" alt="projeto-hora-do-dia">
+                </a>                
+                <div class="div-proposta">
+                    <a href="https://youtu.be/mfHAQ-4Rspw" class="btn btn-projeto">Ver resolução</a>
+                    <button id="btnProjeto1" class="btn btn-projeto" onclick="exibirInformacoes(1)">Conceitos principais</button>
+                </div>
+                <div id="divConceitosPrincipais4" class="divConceitosPrincipais"></div>
+            </div>
+            <div class="projeto">
+                <a href="https://youtu.be/vEOEZ03ZyiE?t=162">
+                    <h3 class="titulo-projeto">Proposta 5 - Analizador de Números</h3>
+                    <img src="./img/proposta5.png" alt="projeto-hora-do-dia">
+                </a>
+                <div class="div-proposta-block">
+                    <div class="div-proposta">
+                        <a href="https://youtu.be/vEOEZ03ZyiE?t=338" class="btn btn-projeto">Resolução (parte 1)</a>
+                        <a href="https://youtu.be/slLoLLCd-k0" class="btn btn-projeto">Resolução (parte 2)</a>
+                    </div>
+                    <button id="btnProjeto1" class="btn btn-projeto btn-proposta-block" onclick="exibirInformacoes(1)">Conceitos principais</button>
+                </div>
+                <div id="divConceitosPrincipais5" class="divConceitosPrincipais"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Projetos Carol</p>
+    </footer>
+    <script src=""></script> <!-- nao esquecer!! -->
+</body>
+
+</html>

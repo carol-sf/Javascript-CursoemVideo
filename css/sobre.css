@@ -1,0 +1,26 @@
+.info {
+    font: normal 16pt Arial;
+    margin: 0 4%;
+}
+
+.info-modelo {
+    font: normal 12pt Arial;
+}
+
+.div-proposta {
+    margin-top: 6%;
+
+}
+
+.div-proposta-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-proposta-block {
+    margin: 3% 8%;
+}
+
+.projeto img {
+    height: 65%;
+}
