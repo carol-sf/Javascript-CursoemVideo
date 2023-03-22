@@ -28,6 +28,6 @@ Nesse projeto eu resolvi todos os exercícios do curso básico de Javascript da 
 
 
 ## Analizador de números
---> Funções + condições, estruturas de repetição, criação e manipulação de elementos HTML pelo JS
+--> Arrays e funções + condições, estruturas de repetição, criação e manipulação de elementos HTML pelo JS
 <br><br>
 <img src="./img/projeto-analizador-numeros.png" alt="projeto-analizador-numeros">
