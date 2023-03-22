@@ -16,7 +16,6 @@
 .titulo {
     font-size: 40pt;
     margin: 0;
-    /* width: 60%; */
     width: 70%;
     margin: auto;
     color: var(--escuro);

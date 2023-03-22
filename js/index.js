@@ -26,6 +26,7 @@ function exibirInformacoes(pNumProjeto) {
                 break;
         }
         divSaibaMais.innerHTML = info;
+        trocarModo('saiba-mais');
     } else {
         btnProjeto.textContent = "Saiba mais"
         divSaibaMais.innerHTML = "";
