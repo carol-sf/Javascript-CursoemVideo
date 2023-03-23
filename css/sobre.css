@@ -1,33 +1,64 @@
 .info {
     font: normal 16pt Arial;
-    margin: 0 4%;
+    margin: 5% 2%;
 }
 
-.info-modelo {
-    font: normal 12pt Arial;
+.coluna {
+    width: 100%;
 }
 
-.div-proposta {
-    margin-top: 3%;
+.projeto {
+    height: 480px;
 }
 
-.div-proposta-block {
+.titulo-proposta {
+    height: 15%;
     display: flex;
-    flex-direction: column;
-}
-
-.btn-proposta-block {
-    margin: 3% 16%;
+    justify-content: center;
+    align-items: center;
 }
 
 .projeto img {
-    height: 450px;
+    height: 290px;
+}
+
+.div-proposta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal 12pt Arial;
+    height: 22%;
 }
 
 .divSaibaMais a {
     color: var(--escuro);
 }
 
-.coluna {
-    width: 50%;
+.perguntas img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.perguntas {
+    background-color: var(--fundo-div-claro);
+    border-radius: 25px;
+    margin: 1%;
+    padding: 1%;
+    padding-bottom: 3%;
+    height: 350px;
+}
+
+.titulo-proposta {
+    margin: 3% 3% 8% 3%;
+}
+
+.img-proximos-passos {
+    width: 100%;
+    border-radius: 25px;
+    margin: 2%;
+}
+
+h3 {
+    font-size: 20pt;
+    color: var(--colorido-claro);
 }
