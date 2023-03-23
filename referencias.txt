@@ -71,3 +71,21 @@ Foto de Suzy Hazelwood: https://www.pexels.com/pt-br/foto/arte-da-galaxia-azul-e
 
 fundo-alalizador-numeros:
 Foto de Burak The Weekender: https://www.pexels.com/pt-br/foto/exibicao-de-graficos-em-um-ipad-187041/
+
+
+---- Pagina Guia ---------------------------------------------------------------------------------------
+
+icone-passos:
+<a href="https://www.flaticon.com/br/icones-gratis/passos" title="passos ícones">Passos ícones criados por Mihimihi - Flaticon</a>
+
+icone-perguntas:
+<a href="https://www.flaticon.com/br/icones-gratis/ponto-de-interrogacao" title="ponto de interrogação ícones">Ponto de interrogação ícones criados por Freepik - Flaticon</a>
+
+icone-exercicios:
+<a href="https://www.flaticon.com/br/icones-gratis/exercicio" title="exercício ícones">Exercício ícones criados por Freepik - Flaticon</a>
+
+foto-guia:
+Foto de Andrew Neel: https://www.pexels.com/pt-br/foto/pecas-de-mapa-sortidas-2859169/
+
+icone-passar:
+<a href="https://www.flaticon.com/br/icones-gratis/seta" title="seta ícones">Seta ícones criados por Rizki Ahmad Fauzi - Flaticon</a>
