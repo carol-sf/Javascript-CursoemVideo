@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/guia.css">
-    <!-- <link rel="stylesheet" href="./css/index.css"> -->
 </head>
 
 <body onload="passar()">
@@ -21,11 +20,11 @@
         <nav>
             <button class="btn-sem-fundo"><img src="./img/icone-modo-escuro.png" alt=""></button>
             <a href="index.html">Projetos</a>
-            <a href="">Sobre</a>
+            <a href="guia.html">Guia</a>
         </nav>
     </header>
     <main>
-        <div class="apresentacao-guia">
+        <section class="apresentacao-guia">
             <h1>Guia do Curso: <a href="https://www.cursoemvideo.com/curso/javascript/">Javascript - Curso em Vídeo</a>
             </h1>
             <p>.........</p>
@@ -34,53 +33,89 @@
                 avançar mais.</p>
 
             <div class="nav-guia">
-                <a href="" class="nav-guia-item">
+                <a href="#exercicios" class="nav-guia-item">
                     <img src="./img/icone-exercicio.png" alt="">
                     <p>Exerícios</p>
                 </a>
-                <a href="" class="nav-guia-item">
+                <a href="#perguntas" class="nav-guia-item">
                     <img src="./img/icone-perguntas.png" alt="">
                     <p>Perguntas</p>
                 </a>
-                <a href="" class="nav-guia-item">
+                <a href="#proximosPassos" class="nav-guia-item">
                     <img src="./img/icone-passos.png" alt="">
                     <p>Próximos passos</p>
                 </a>
             </div>
-        </div>
-        <section class="imagem">
-            <!-- <img src="./img/foto-guia.jpg" alt=""> -->
         </section>
-        <section class="exercicios">
-            <div class="texto">
+        <div id="exercicios" class="secao-imagem secao-perguntas">
+            <div class="titulo-secao-imagem">
                 <h2>Exercícios</h2>
                 <p>Tente resolver os exercícios propostos pelo professor Guanabara durante o curso.</p>
+            </div>
+        </div>
+        <section class="exercicios">
+            <div class="texto">
                 <div id="divConceitosImportantes">
-                    <br>
-                    <p>&#x1F973 Se você <strong>conseguiu</strong> fazer todos eles sem ver a resolução, parabéns! Você já
-                        sabe o que o curso se propôs a ensinar. Mas mesmo que você tenha conseguido implementar, eu
-                        recomento dar uma olhada nas resoluções para ver se o seu código pode ser simplificado de alguma
-                        maneira.</p>
-                    <br>
-                    <p>&#x1F914 Se você <strong>não conseguiu</strong> implementar algumas funcionalidades, tente ver o
-                        vídeo sobre o conceito principal trabalhado. Você também pode proucurar suas dúvidas na lista de
-                        perguntas mais em baixo, se ela estiver lá é só clicar na imagem que você será encaminhado para o
-                        vídeo referente.</p>
                 </div>
             </div>
             <div class="projetos">
-                <!-- <div class="projeto"> -->
-                    <a href="https://youtu.be/b2K7eo5Jdj8?t=218" id="tituloProjeto" class="titulo-projeto">Modelo</a>
-                    <div class="passar-voltar">
-                        <button id="btn-voltar " onclick="voltar()" class="btn-sem-fundo"><img
-                                src="./img/icone-voltar.png" alt="" class="img-seta"></button>
-                        <img src="./img/propostas-modelo.png" alt="" id="imgProjeto" class="img-projeto">
-                        <button id="btn-passar" onclick="passar()" class="btn-sem-fundo"><img
-                                src="./img/icone-passar.png" alt="" class="img-seta"></button>
-                    </div>
-                    <div id="divInfo" class="div-info"></div>
-                <!-- </div> -->
+                <a href="https://youtu.be/b2K7eo5Jdj8?t=218" id="tituloProjeto" class="titulo-projeto">Modelo</a>
+                <div class="passar-voltar">
+                    <button id="btn-voltar " onclick="voltar()" class="btn-sem-fundo"><img src="./img/icone-voltar.png"
+                            alt="" class="img-seta"></button>
+                    <img src="./img/propostas-modelo.png" alt="" id="imgProjeto" class="img-projeto">
+                    <button id="btn-passar" onclick="passar()" class="btn-sem-fundo"><img src="./img/icone-passar.png"
+                            alt="" class="img-seta"></button>
+                </div>
+                <div id="divInfo"></div>
             </div>
+        </section>
+        <section>
+            <div id="perguntas" class="secao-imagem secao-perguntas">
+                <div class="titulo-secao-imagem">
+                    <h2>Perguntas</h2>
+                    <p>Você também pode provar seus conhecimentos tentando responder as perguntas que o professor faz no
+                        início
+                        de cada aula e assistindo as aulas referentes àquelas que não conseguiu responder. Mas não vale
+                        pesquisar na internet em! </p>
+                    <p>Essa parte também pode ser usada como um <strong>resumo</strong> sobre o que você vai encontrar
+                        em
+                        cada aula.</p>
+                </div>
+            </div>
+            <div class="conteudo">
+                <div class="aulas">
+                    <select name="" id="cmbAula" class="sel">
+                        <option value="0" class="opTitulo">Selecione uma aula</option>
+                        <option value="1">01 - O que o Javascript é capaz de fazer?</option>
+                        <option value="2">02 - Javascript: Como chegamos até aqui?</option>
+                        <option value="3">03 - Dando os primeiros passos</option>
+                        <option value="4">04 - Criando seu primeiro script</option>
+                        <option value="5">05 - Variáveis e tipos primitivos</option>
+                        <option value="6">06 - Tratamento de dados</option>
+                        <option value="7">07 - Operadores (parte 1)</option>
+                        <option value="8">08 - Operadores (parte 2)</option>
+                        <option value="9">09 - Introdução ao DOM</option>
+                        <option value="10">10 - Eventos DOM</option>
+                        <option value="11">11 - Condições (parte 1)</option>
+                        <option value="12">12 - Condições (parte 2)</option>
+                        <option value="13">13 - Repetição (parte 1)</option>
+                        <option value="14">14 - Repetição (parte 2)</option>
+                        <option value="15">15 - Variáveis compostas</option>
+                    </select>
+                    <button class="btn btn-perguntas" onclick="exibirPerguntas()">Ver perguntas</button>
+                </div>
+                <div class="perguntas" id="divPerguntas"></div>
+            </div>
+        </section>
+        <div id="proximosPassos" class="secao-imagem secao-perguntas">
+            <div class="titulo-secao-imagem">
+                <h2>Proximos passos</h2>
+                <p>O Professor, na última aula, não nos deixou desamparados. Ele fez uma lista com vários os tópicos que podemos estudar daqui para frente. Veja a lista abaixo e clique para assistir o vídeo</p>
+            </div>
+        </div>
+        <section class="secao-proximos-passos">
+            <a href="https://youtu.be/roP93FA-NgU"><img src="./img/proximos-passos.jpeg" alt=""></a>
         </section>
     </main>
     <footer>

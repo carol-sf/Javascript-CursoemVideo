@@ -58,6 +58,12 @@ a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: var(--colorido-claro);
+    /* border-bottom: 1px solid var(--colorido-claro); */
+    transition: all 0.3s;
+}
+
 main {
     margin: 2% 5%;
 }

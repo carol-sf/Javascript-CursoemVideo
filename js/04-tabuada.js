@@ -1,6 +1,6 @@
 function gerarTabuada() {
     let selTabuada = document.querySelector('#selTabuada');
-    let opTitulo = document.querySelector('#opTitulo');
+    // let opTitulo = document.querySelector('#opTitulo');
     let cmbTipoTabuada = document.querySelector('#cmbTipoTabuada');
     
     if (inpNum.value != '') {

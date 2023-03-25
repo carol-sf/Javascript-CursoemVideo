@@ -1,21 +1,137 @@
+function exibirPerguntas() {
+    let cmbAula = document.querySelector('#cmbAula');
+    let divPerguntas = document.querySelector('#divPerguntas')
+
+    let aulaSelecionada = cmbAula.options[cmbAula.selectedIndex].value;
+
+    divPerguntas.innerHTML = '';
+    let imgPerguntas = document.createElement('img');
+    imgPerguntas.setAttribute('src', novaImagemPergunta(Number(aulaSelecionada)));
+    divPerguntas.appendChild(imgPerguntas);
+
+    let btnVerAula = document.createElement('a');
+    btnVerAula.innerText = 'Ver aula';
+    btnVerAula.setAttribute('href', novoLinkAula(Number(aulaSelecionada)));
+    btnVerAula.setAttribute('class', 'btn btn-projeto btn-aula');
+    divPerguntas.appendChild(btnVerAula);
+}
+
+function novaImagemPergunta(pAulaSelecionada) {
+    switch (pAulaSelecionada) {
+        case 1:
+            return "./img/perguntas1.jpeg";
+            break;
+        case 2:
+            return "./img/perguntas2.jpeg";
+            break;
+        case 3:
+            return "./img/perguntas3.jpeg";
+            break;
+        case 4:
+            return "./img/perguntas4.jpeg";
+            break;
+        case 5:
+            return "./img/perguntas5.jpeg";
+            break;
+        case 6:
+            return "./img/perguntas6.jpeg";
+            break;
+        case 7:
+            return "./img/perguntas7.jpeg";
+            break;
+        case 8:
+            return "./img/perguntas8.jpeg";
+            break;
+        case 9:
+            return "./img/perguntas9.jpeg";
+            break;
+        case 10:
+            return "./img/perguntas10.jpeg";
+            break;
+        case 11:
+            return "./img/perguntas11.jpeg";
+            break;
+        case 12:
+            return "./img/perguntas12.jpeg";
+            break;
+        case 13:
+            return "./img/perguntas13.jpeg";
+            break;
+        case 14:
+            return "./img/perguntas14.jpeg";
+            break;
+        case 15:
+            return "./img/perguntas15.jpeg";
+            break;
+    }
+}
+
+function novoLinkAula(pAulaSelecionada) {
+    switch (pAulaSelecionada) {
+        case 1:
+            return "https://youtu.be/Ptbk2af68e8";
+            break;
+        case 2:
+            return "https://youtu.be/rUTKomc2gG8";
+            break;
+        case 3:
+            return "https://youtu.be/FdePtO5JSd0";
+            break;
+        case 4:
+            return "https://youtu.be/FdePtO5JSd0";
+            break;
+        case 5:
+            return "https://youtu.be/Vbabsye7mWo";
+            break;
+        case 6:
+            return "https://youtu.be/OJgu_KCCUSY";
+            break;
+        case 7:
+            return "https://youtu.be/OJgu_KCCUSY";
+            break;
+        case 8:
+            return "https://youtu.be/BP63NhITvao";
+            break;
+        case 9:
+            return "https://youtu.be/WWZX8RWLxIk";
+            break;
+        case 10:
+            return "https://youtu.be/wWnBB-mZIvY";
+            break;
+        case 11:
+            return "https://youtu.be/cOdG4eACN2A";
+            break;
+        case 12:
+            return "https://youtu.be/EEStcIe8rAM";
+            break;
+        case 13:
+            return "https://youtu.be/EEStcIe8rAM";
+            break;
+        case 14:
+            return "https://youtu.be/eX-lkN_Zahc";
+            break;
+        case 15:
+            return "https://youtu.be/XdkW62tkAgU";
+            break;
+    }
+}
+
+
+
 let aux = -1;
 
 function passar() {
     let tituloProjeto = document.querySelector('#tituloProjeto');
     let imgProjeto = document.querySelector('#imgProjeto');
     let divInfo = document.querySelector('#divInfo');
-    let btnVerResolucao = document.querySelector('#btnVerResolucao');
-    let btnProposta = document.querySelector('.btnProposta');
 
     aux++;
+    vetCircular();
+
     tituloProjeto.innerHTML = novoTitulo();
     tituloProjeto.href = novoLink();
     imgProjeto.src = novaImagem();
-
     divInfo.innerHTML = novaInfo();
-    btnVerResolucao.href = novoLinkSolucao();
-    btnProposta.setAttribute('id', `btnProposta${aux}`);
-
     limpaConceitosImportantes();
 }
 
@@ -25,18 +141,24 @@ function voltar() {
     let divInfo = document.querySelector('#divInfo');
 
     aux--;
+    vetCircular();
+
     tituloProjeto.innerHTML = novoTitulo();
     tituloProjeto.href = novoLink();
     imgProjeto.src = novaImagem();
     divInfo.innerHTML = novaInfo();
+    limpaConceitosImportantes();
 }
 
-function novoTitulo() {
+function vetCircular() {
     if (aux == -1) {
         aux = 5;
     } else if (aux == 6) {
         aux = 0;
     }
+}
+
+function novoTitulo() {
     switch (aux) {
         case 0:
             return "Modelo";
@@ -60,11 +182,6 @@ function novoTitulo() {
 }
 
 function novoLink() {
-    if (aux == -1) {
-        aux = 5;
-    } else if (aux == 6) {
-        aux = 0;
-    }
     switch (aux) {
         case 0:
             return "https://youtu.be/b2K7eo5Jdj8?t=218";
@@ -88,11 +205,6 @@ function novoLink() {
 }
 
 function novaImagem() {
-    if (aux == -1) {
-        aux = 5;
-    } else if (aux == 6) {
-        aux = 0;
-    }
     switch (aux) {
         case 0:
             return "./img/propostas-modelo.png";
@@ -131,18 +243,13 @@ function novaInfo() {
                 <button class="btn btn-projeto btnProposta" onclick="exibirInformacoes()">Conceitos principais</button>`;
     } else {
         return `<button class="btn btn-projeto">
-                    <a href="" id="btnVerResolucao">Ver resolução</a>
+                    <a href="${novoLinkSolucao()}" id="btnVerResolucao">Ver resolução</a>
                 </button>
                 <button class="btn btn-projeto btnProposta" onclick="exibirInformacoes()">Conceitos principais</button>`;
     }
 }
 
 function novoLinkSolucao() {
-    if (aux == -1) {
-        aux = 5;
-    } else if (aux == 6) {
-        aux = 0;
-    }
     switch (aux) {
         case 1:
             return "https://youtu.be/UXSWgnbSHxs";
@@ -151,7 +258,7 @@ function novoLinkSolucao() {
             return "https://youtu.be/f5es-PpaUI8";
             break;
         case 3:
-            return "https://youtu.be/6tyHypeY4-8";
+            return "https://youtu.be/oMNbc_LFz8w?t=102";
             break;
         case 4:
             return "https://youtu.be/mfHAQ-4Rspw";
@@ -165,11 +272,6 @@ function exibirInformacoes() {
 
     divConceitosImportantes.setAttribute('class', 'divConceitosImportantes');
 
-    if (aux == -1) {
-        aux = 5;
-    } else if (aux == 6) {
-        aux = 0;
-    }
     switch (aux) {
         case 1:
         case 2:
@@ -219,14 +321,14 @@ function exibirInformacoes() {
                         </ul>`;
             break;
     }
-    if(aux != 0) {
+    if (aux != 0) {
         divConceitosImportantes.innerHTML = conteudo;
     }
 }
 
 function limpaConceitosImportantes() {
     let divConceitosImportantes = document.querySelector('#divConceitosImportantes');
-    divConceitosImportantes.innerHTML = `<p>&#x1F973 Se você <strong>conseguiu</strong> fazer todos eles sem ver a resolução, parabéns! Você já sabe o que o curso se propôs a ensinar. Mas mesmo que você tenha conseguido implementar, eu recomento dar uma olhada nas resoluções para ver se o seu código pode ser simplificado de alguma maneira.</p>
+    divConceitosImportantes.innerHTML = `<p class="informacoes-iniciais">&#x1F973 Se você <strong>conseguiu</strong> fazer todos eles sem ver a resolução, parabéns! Você já sabe o que o curso se propôs a ensinar. Mas mesmo que você tenha conseguido implementar, eu recomento dar uma olhada nas resoluções para ver se o seu código pode ser simplificado de alguma maneira.</p>
     <br>
     <p>&#x1F914 Se você <strong>não conseguiu</strong> implementar algumas funcionalidades, tente ver o vídeo sobre o conceito principal trabalhado. Você também pode proucurar suas dúvidas na lista de perguntas mais em baixo, se ela estiver lá é só clicar na imagem que você será encaminhado para o vídeo referente.</p>`;
 
