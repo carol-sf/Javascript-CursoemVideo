@@ -1,7 +1,8 @@
 # Javascript - Curso em Vídeo
 
 Nesse projeto eu resolvi todos os exercícios do curso básico de Javascript da plataforma Curso em Vídeo. Eu também fiz os meus próprios testes para reforçar o aprendizado, incluindo uma página inicial que reúne todos os projetos do curso. Abaixo estão os prints dos exercícios resolvidos.
-Link do projeto: https://carol-sf.github.io/Iframes/
+
+Link do projeto: https://carol-sf.github.io/Javascript-CursoemVideo/
 
 
 ## Hora do dia
